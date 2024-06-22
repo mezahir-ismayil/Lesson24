@@ -1,0 +1,29 @@
+$heightOfdiv: 200px;
+$backColordiv: rgb(212, 212, 39);
+$border: solid;
+
+.parent {
+    background-color: $backColordiv;
+   
+    $backColordiv:blue !global;
+    width: $heightOfdiv;
+    height: 100px;
+    div {
+        p {
+            color: gray;
+            // font-size: 50px
+        }
+    }
+
+    p {
+        color: red;
+    }
+    .newelem {
+        width: $heightOfdiv;
+        height: $heightOfdiv;
+        background-color: $backColordiv;
+        border: $border;
+    }
+
+}
+

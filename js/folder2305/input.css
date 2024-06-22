@@ -1,0 +1,60 @@
+/* div img{
+    
+    width: 400px;
+    height: 300px;
+    position: absolute;
+  
+
+}
+#i2 {
+    margin-left: 900px;
+}
+div {
+    margin: 200px 200px 0 200px;
+    border: solid 2px;
+    width: 340px;
+    padding: 60px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+} */
+/* div img{
+  
+    transition: 1s;
+    animation-name: anime;
+    animation-duration: 0.5s;
+  
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes anime {
+    from {
+        transform: translate(0,0);
+     }
+     to {
+         transform: translate(400px,0px);
+     }
+     
+} */
+
+.parent {
+    width: 400px;
+    height: 300px;
+    border: solid 2px;
+    display: flex;
+    margin: 200px 200px 0 200px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.parent img {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    
+}
+#img2 {
+    margin-left: 1000px;
+}

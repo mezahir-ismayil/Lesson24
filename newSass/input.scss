@@ -1,0 +1,47 @@
+$color: rgb(35, 150, 35);
+$backColor: rgb(62, 62, 62);
+$width: 450px;
+$hello: 150px;
+$sizeforF: 30px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    background-color: rgb(37, 35, 35);
+    height: 100vh;
+    padding: 100px;
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        width: 680px;
+        margin-left: 135px;
+        color: white;
+        font-size: $sizeforF;
+        $color: aqua !global; 
+    }
+    .parent1, .parent2 {
+        display: flex;
+        justify-content: center;
+        padding: 0 100px;
+     div {
+        background-color: $backColor;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 20px;
+        width: $width;
+        height: $hello;
+        border: {
+            bottom: solid red 2px;
+            radius: 50px;
+            top: dashed 3px black;
+            
+        }
+        @import "_colors.scss";
+        p:first-child {
+            color: $color;
+        }
+    }
+  }
+}

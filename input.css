@@ -1,0 +1,17 @@
+.parent {
+  background-color: rgb(212, 212, 39);
+  width: 200px;
+  height: 100px;
+}
+.parent div p {
+  color: gray;
+}
+.parent p {
+  color: red;
+}
+.parent .newelem {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: solid;
+}/*# sourceMappingURL=input.css.map */

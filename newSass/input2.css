@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  background-color: rgb(37, 35, 35);
+  height: 100vh;
+  padding: 100px;
+}
+.parent .flex {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  margin-left: 135px;
+  color: white;
+  font-size: 30px;
+}
+.parent .parent1, .parent .parent2 {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+}
+.parent .parent1 div, .parent .parent2 div {
+  background-color: rgb(62, 62, 62);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 450px;
+  height: 150px;
+  border-bottom: solid red 2px;
+  border-radius: 50px;
+  border-top: dashed 3px black;
+}
+.parent .parent1 div p:first-child, .parent .parent2 div p:first-child {
+  color: aqua;
+}/*# sourceMappingURL=input2.css.map */
